@@ -23,7 +23,7 @@ mongoose.connect(URL, {
 
 // Define a simple route for testing
 const productRouter = require('./routes/product.js'); // ✅ Ensure this path is correct
-app.use('/api/product', productRouter); // ✅ Ensure this path is correct
+app.use('/product', productRouter); // ✅ Ensure this path is correct
 
 
 
